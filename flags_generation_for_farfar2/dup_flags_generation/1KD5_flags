@@ -1,0 +1,7 @@
+-fasta ../extraction/dup_chains/split/1KD5_c.fasta
+-native ../pdb_files/1KD5.pdb
+-secstruct_file ../extraction/dup_chains/split/1KD5.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1KD5.out
+-cycles 1000
+-minimize_rna

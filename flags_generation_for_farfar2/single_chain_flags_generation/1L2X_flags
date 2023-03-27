@@ -1,0 +1,7 @@
+-fasta ../extraction/single_chain/1L2X_1.fasta
+-native ../pdb_files/1L2X.pdb
+-secstruct_file ../extraction/single_chain/1L2X_1.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1L2X.out
+-cycles 1000
+-minimize_rna

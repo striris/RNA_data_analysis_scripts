@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Assign a value to a variable
+declare -a list=("157D" "1I9X" "1KD5")
+#"1ESY" "1KKA" "1L2X" "1Q9A" "1QWA" "1XJR" "255D" "283D" "28SP" "2A43" "2F88"
+
+# Loop through a sequence of numbers using the variable
+for i in ${list[@]};
+do
+	python Scripts_for_rms_extraction.py ${i}
+done

@@ -1,0 +1,7 @@
+-fasta ../extraction/single_chain/1Q9A_1.fasta
+-native ../pdb_files/1Q9A.pdb
+-secstruct_file ../extraction/single_chain/1Q9A_1.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1Q9A.out
+-cycles 1000
+-minimize_rna

@@ -1,0 +1,12 @@
+
+S_000001 contains 128 hydrogen atoms.
+S_000002 contains 128 hydrogen atoms.
+S_000003 contains 128 hydrogen atoms.
+S_000004 contains 128 hydrogen atoms.
+S_000005 contains 128 hydrogen atoms.
+S_000006 contains 128 hydrogen atoms.
+S_000007 contains 128 hydrogen atoms.
+S_000008 contains 128 hydrogen atoms.
+S_000009 contains 128 hydrogen atoms.
+S_000010 contains 128 hydrogen atoms.
+

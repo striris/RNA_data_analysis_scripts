@@ -1,0 +1,18 @@
+157D number of chains: 2, length: 12
+1A4D number of chains: 2, chain 1: length: 21, chain 2: length: 20
+1CSL number of chains: 2, chain 1: length: 13, chain 2: length: 15
+1DQF number of chains: 2, chain 1: length: 9, chain 2: length: 10
+1ESY number of chains: 1, chain 1: length: 19
+1I9X number of chains: 2, length: 13
+1KD5 number of chains: 2, length: 11
+1KKA number of chains: 1, chain 1: length: 17
+1L2X number of chains: 1, chain 1: length: 28
+1MHK number of chains: 2, chain 1: length: 12, chain 2: length: 14
+1Q9A number of chains: 1, chain 1: length: 27
+1QWA number of chains: 1, chain 1: length: 21
+1XJR number of chains: 1, chain 1: length: 47
+255D number of chains: 1, chain 1: length: 12
+283D number of chains: 1, chain 1: length: 12
+28SP number of chains: 1, chain 1: length: 28
+2A43 number of chains: 1, chain 1: length: 26
+2F88 number of chains: 1, chain 1: length: 34

@@ -1,0 +1,7 @@
+-fasta ../extraction/unique_chains/1DQF_c.fasta
+-native ../pdb_files/1DQF.pdb
+-secstruct_file ../extraction/unique_chains/1DQF.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1DQF.out
+-cycles 1000
+-minimize_rna
