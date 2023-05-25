@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Assign a value to a variable
+declare -a list=("3MEI" "3P59" "3OWZ" "3V7E" "4P9R" "4GXY" "4R4V" "4L81" "5KPY" "4LCK" "5LYV" "4QLM" "4XW7" "5DDP" "5DDO" "5DI4" "5K7C" "5TPY" "5T5A" "5Y87" "5NWQ")
+# Loop through a sequence of numbers using the variable
+mkdir out_fasta
+for i in ${list[@]};
+do
+        python pdb2fasta.py ../natives_PDB/${i}.pdb > ./out_fasta/out_fasta_${i}.fasta
+done
