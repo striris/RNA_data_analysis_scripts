@@ -1,0 +1,9 @@
+>157D_1|Chains A, B|RNA (5'-R(*CP*GP*CP*GP*AP*AP*UP*UP*AP*GP*CP*G)-3')|
+cgcgaauuagcg,cgcgaauuagcg
+(((.((((.(((,))).)))).)))
+>1I9X_1|Chains A, B|5'-R(*UP*AP*CP*UP*AP*AP*CP*GP*UP*AP*GP*UP*A)-3'|null
+uacuaacguagua,uacuaacguagua
+(((((.(((((((,)))).))))))))
+>1KD5_1|Chains A, B|5'-R(*GP*GP*UP*CP*AP*CP*AP*GP*CP*CP*C)-3'|
+ggucacagccc,ggucacagccc
+(((....(((.,)))....))).
