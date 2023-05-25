@@ -1,0 +1,607 @@
+2023-05-19 11:39:07,022:INFO:{'in_channels': 11, 'out_channels': 1, 'hidden_dim_1': 64, 'hidden_dim_2': 128, 'hidden_dim_3': 32, 'criterion': MSELoss(), 'nnconv_aggr': 'mean'}
+2023-05-19 14:11:23,249:INFO:{'method': 'random', 'metric': {'name': 'loss', 'goal': 'minimize'}, 'parameters': {'optimizer': {'values': ['adam', 'sgd']}, 'epochs': {'value': [50, 80, 100]}, 'learning_rate': {'distribution': 'uniform', 'min': 0, 'max': 0.1}, 'batch_size': {'distribution': 'q_log_uniform_values', 'q': 8, 'min': 16, 'max': 256}, 'in_channels': {'value': 11}, 'out_channels': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'criterion': {'value': MSELoss()}, 'nnconv_aggr': {'value': 'mean'}}}
+2023-05-19 14:22:31,977:INFO:{'method': 'random', 'metric': {'name': 'loss', 'goal': 'minimize'}, 'parameters': {'optimizer': {'values': ['adam', 'sgd']}, 'epochs': {'values': [50, 80, 100]}, 'learning_rate': {'distribution': 'uniform', 'min': 0, 'max': 0.1}, 'batch_size': {'distribution': 'q_log_uniform_values', 'q': 8, 'min': 16, 'max': 256}, 'in_channels': {'value': 11}, 'out_channels': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'criterion': {'value': MSELoss()}, 'nnconv_aggr': {'value': 'mean'}}}
+2023-05-19 15:23:09,381:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:23:26,010:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:24:34,996:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:24:55,464:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:27:59,945:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:28:28,123:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:29:02,141:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:29:02,928:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:29:25,589:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:29:26,562:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:29:46,502:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:29:47,219:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:30:07,570:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:30:08,327:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:34:34,374:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:34:35,051:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:34:55,841:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:34:56,452:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:35:16,515:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:35:17,264:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:35:48,177:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:35:49,009:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:36:25,049:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:36:25,785:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:36:45,604:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:36:46,349:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:37:12,001:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:37:13,157:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:37:37,598:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:37:38,430:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:41:14,279:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:41:14,920:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:41:45,561:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:41:46,413:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:42:08,591:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:42:09,383:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:42:36,000:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'values': ['adam', 'sgd']}, 'out_channels': {'value': 1}}}
+2023-05-19 15:42:36,752:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:45:51,016:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:45:51,642:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:46:12,566:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:46:13,416:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:46:33,381:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:46:34,136:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:53:54,844:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:53:55,675:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:54:21,610:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:54:22,520:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:54:45,278:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:54:46,133:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:55:10,279:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:55:10,970:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:56:25,826:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:56:26,587:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:56:48,099:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:56:48,870:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:57:09,627:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:57:10,400:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:57:30,937:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:57:31,772:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:57:54,350:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:57:55,159:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:58:21,702:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:58:22,552:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:58:43,663:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:58:44,433:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:59:04,514:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:59:05,321:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:59:22,353:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:59:22,947:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 15:59:44,474:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 15:59:45,156:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:00:11,449:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:00:12,175:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:00:39,466:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:00:40,431:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:01:01,703:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:01:02,535:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:01:23,424:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:01:24,256:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:01:44,521:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:01:45,311:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:02:59,588:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:03:26,898:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:03:52,227:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:04:35,492:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:05:33,649:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:05:34,703:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:06:12,064:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:06:13,590:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:06:39,219:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:06:40,815:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:07:05,501:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:07:07,088:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:19:49,803:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:19:52,420:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:20:23,665:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:20:25,432:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:20:50,891:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:20:52,363:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 16:21:59,082:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 16:22:01,356:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:18:10,117:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:18:10,809:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:18:37,914:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:18:38,518:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:18:59,947:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:19:00,667:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:19:20,876:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:19:21,604:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:23:54,992:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:23:55,612:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:24:16,730:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:24:17,409:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:24:37,529:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:24:38,306:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-19 17:24:59,219:INFO:{'method': 'random', 'metric': {'goal': 'minimize', 'name': 'val_loss'}, 'parameters': {'batch_size': {'distribution': 'q_log_uniform_values', 'max': 256, 'min': 16, 'q': 8}, 'criterion': {'value': 'MSELoss()'}, 'epochs': {'value': 1}, 'hidden_dim_1': {'value': 64}, 'hidden_dim_2': {'value': 128}, 'hidden_dim_3': {'value': 32}, 'in_channels': {'value': 11}, 'lr': {'distribution': 'uniform', 'max': 0.1, 'min': 0}, 'nnconv_aggr': {'value': 'mean'}, 'optimizer': {'value': 'adam'}, 'out_channels': {'value': 1}}}
+2023-05-19 17:24:59,972:INFO:GNNModel(
+  (conv1): NNConv(11, 64, aggr=mean, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MaxAggregation()
+  (fc1): Linear(in_features=64, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+)

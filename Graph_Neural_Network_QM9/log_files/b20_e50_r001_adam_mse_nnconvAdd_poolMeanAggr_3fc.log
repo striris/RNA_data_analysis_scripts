@@ -1,0 +1,114 @@
+2023-05-17 17:19:43,401:INFO:root:{'in_channels': 11, 'out_channels': 1, 'hidden_dim_1': 64, 'hidden_dim_2': 128, 'hidden_dim_3': 32, 'lr': 0.001, 'batch_size': 20, 'num_epochs': 50, 'processing_steps': 10, 'criterion': MSELoss(), 'criterion2': CrossEntropyLoss(), 'nnconv_aggr': 'add'}
+2023-05-17 17:20:07,701:INFO:root:GNNModel(
+  (conv1): NNConv(11, 64, aggr=add, nn=Sequential(
+    (0): Linear(in_features=5, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=704, bias=True)
+  ))
+  (global_pool): MeanAggregation()
+  (fc1): Linear(in_features=64, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=1, bias=True)
+)
+2023-05-17 17:20:53,958:INFO:root:Test Loss before training: 10.3316
+2023-05-17 17:22:27,237:INFO:root:Epoch: 0, Training Loss: 1.3113
+2023-05-17 17:22:31,887:INFO:root:Epoch: 0, Validation Loss: 1.2027
+2023-05-17 17:23:33,433:INFO:root:Epoch: 1, Training Loss: 1.1449
+2023-05-17 17:23:37,529:INFO:root:Epoch: 1, Validation Loss: 1.0797
+2023-05-17 17:24:39,142:INFO:root:Epoch: 2, Training Loss: 1.0416
+2023-05-17 17:24:42,607:INFO:root:Epoch: 2, Validation Loss: 1.0393
+2023-05-17 17:25:41,069:INFO:root:Epoch: 3, Training Loss: 0.9762
+2023-05-17 17:25:44,213:INFO:root:Epoch: 3, Validation Loss: 0.9152
+2023-05-17 17:26:34,465:INFO:root:Epoch: 4, Training Loss: 0.9394
+2023-05-17 17:26:37,643:INFO:root:Epoch: 4, Validation Loss: 0.9616
+2023-05-17 17:27:29,838:INFO:root:Epoch: 5, Training Loss: 0.9150
+2023-05-17 17:27:32,702:INFO:root:Epoch: 5, Validation Loss: 0.8885
+2023-05-17 17:28:23,497:INFO:root:Epoch: 6, Training Loss: 0.8915
+2023-05-17 17:28:26,490:INFO:root:Epoch: 6, Validation Loss: 0.8847
+2023-05-17 17:29:17,607:INFO:root:Epoch: 7, Training Loss: 0.8724
+2023-05-17 17:29:20,627:INFO:root:Epoch: 7, Validation Loss: 0.8618
+2023-05-17 17:30:13,282:INFO:root:Epoch: 8, Training Loss: 0.8610
+2023-05-17 17:30:16,539:INFO:root:Epoch: 8, Validation Loss: 0.8859
+2023-05-17 17:31:09,330:INFO:root:Epoch: 9, Training Loss: 0.8495
+2023-05-17 17:31:12,567:INFO:root:Epoch: 9, Validation Loss: 0.8299
+2023-05-17 17:32:07,031:INFO:root:Epoch: 10, Training Loss: 0.8335
+2023-05-17 17:32:10,252:INFO:root:Epoch: 10, Validation Loss: 0.8346
+2023-05-17 17:33:04,227:INFO:root:Epoch: 11, Training Loss: 0.8235
+2023-05-17 17:33:07,306:INFO:root:Epoch: 11, Validation Loss: 0.8298
+2023-05-17 17:34:01,607:INFO:root:Epoch: 12, Training Loss: 0.8107
+2023-05-17 17:34:04,796:INFO:root:Epoch: 12, Validation Loss: 0.8000
+2023-05-17 17:34:58,194:INFO:root:Epoch: 13, Training Loss: 0.8063
+2023-05-17 17:35:01,340:INFO:root:Epoch: 13, Validation Loss: 0.8102
+2023-05-17 17:35:57,891:INFO:root:Epoch: 14, Training Loss: 0.7926
+2023-05-17 17:36:01,150:INFO:root:Epoch: 14, Validation Loss: 0.8436
+2023-05-17 17:36:55,917:INFO:root:Epoch: 15, Training Loss: 0.7827
+2023-05-17 17:36:59,797:INFO:root:Epoch: 15, Validation Loss: 0.7837
+2023-05-17 17:37:54,113:INFO:root:Epoch: 16, Training Loss: 0.7773
+2023-05-17 17:37:57,248:INFO:root:Epoch: 16, Validation Loss: 0.7751
+2023-05-17 17:38:51,124:INFO:root:Epoch: 17, Training Loss: 0.7681
+2023-05-17 17:38:54,311:INFO:root:Epoch: 17, Validation Loss: 0.8007
+2023-05-17 17:39:47,239:INFO:root:Epoch: 18, Training Loss: 0.7609
+2023-05-17 17:39:50,361:INFO:root:Epoch: 18, Validation Loss: 0.7764
+2023-05-17 17:40:43,401:INFO:root:Epoch: 19, Training Loss: 0.7557
+2023-05-17 17:40:46,608:INFO:root:Epoch: 19, Validation Loss: 0.7587
+2023-05-17 17:41:43,079:INFO:root:Epoch: 20, Training Loss: 0.7472
+2023-05-17 17:41:46,972:INFO:root:Epoch: 20, Validation Loss: 0.7666
+2023-05-17 17:42:42,339:INFO:root:Epoch: 21, Training Loss: 0.7382
+2023-05-17 17:42:45,523:INFO:root:Epoch: 21, Validation Loss: 0.7636
+2023-05-17 17:43:41,358:INFO:root:Epoch: 22, Training Loss: 0.7324
+2023-05-17 17:43:44,664:INFO:root:Epoch: 22, Validation Loss: 0.7666
+2023-05-17 17:44:45,910:INFO:root:Epoch: 23, Training Loss: 0.7250
+2023-05-17 17:44:49,347:INFO:root:Epoch: 23, Validation Loss: 0.7528
+2023-05-17 17:45:57,639:INFO:root:Epoch: 24, Training Loss: 0.7201
+2023-05-17 17:46:00,801:INFO:root:Epoch: 24, Validation Loss: 0.7462
+2023-05-17 17:46:59,385:INFO:root:Epoch: 25, Training Loss: 0.7165
+2023-05-17 17:47:02,713:INFO:root:Epoch: 25, Validation Loss: 0.7141
+2023-05-17 17:47:56,880:INFO:root:Epoch: 26, Training Loss: 0.7069
+2023-05-17 17:48:00,146:INFO:root:Epoch: 26, Validation Loss: 0.7525
+2023-05-17 17:48:53,440:INFO:root:Epoch: 27, Training Loss: 0.7002
+2023-05-17 17:48:56,535:INFO:root:Epoch: 27, Validation Loss: 0.7224
+2023-05-17 17:49:48,456:INFO:root:Epoch: 28, Training Loss: 0.6974
+2023-05-17 17:49:51,508:INFO:root:Epoch: 28, Validation Loss: 0.7276
+2023-05-17 17:50:43,867:INFO:root:Epoch: 29, Training Loss: 0.6904
+2023-05-17 17:50:47,062:INFO:root:Epoch: 29, Validation Loss: 0.7362
+2023-05-17 17:51:40,552:INFO:root:Epoch: 30, Training Loss: 0.6861
+2023-05-17 17:51:43,777:INFO:root:Epoch: 30, Validation Loss: 0.7191
+2023-05-17 17:52:37,233:INFO:root:Epoch: 31, Training Loss: 0.6835
+2023-05-17 17:52:40,305:INFO:root:Epoch: 31, Validation Loss: 0.6966
+2023-05-17 17:53:33,606:INFO:root:Epoch: 32, Training Loss: 0.6826
+2023-05-17 17:53:36,681:INFO:root:Epoch: 32, Validation Loss: 0.7315
+2023-05-17 17:54:31,530:INFO:root:Epoch: 33, Training Loss: 0.6769
+2023-05-17 17:54:34,863:INFO:root:Epoch: 33, Validation Loss: 0.7020
+2023-05-17 17:55:33,100:INFO:root:Epoch: 34, Training Loss: 0.6756
+2023-05-17 17:55:36,290:INFO:root:Epoch: 34, Validation Loss: 0.7022
+2023-05-17 17:56:26,888:INFO:root:Epoch: 35, Training Loss: 0.6733
+2023-05-17 17:56:30,529:INFO:root:Epoch: 35, Validation Loss: 0.6988
+2023-05-17 17:57:24,569:INFO:root:Epoch: 36, Training Loss: 0.6678
+2023-05-17 17:57:27,837:INFO:root:Epoch: 36, Validation Loss: 0.7144
+2023-05-17 17:58:21,101:INFO:root:Epoch: 37, Training Loss: 0.6636
+2023-05-17 17:58:24,386:INFO:root:Epoch: 37, Validation Loss: 0.6976
+2023-05-17 17:59:19,484:INFO:root:Epoch: 38, Training Loss: 0.6608
+2023-05-17 17:59:22,770:INFO:root:Epoch: 38, Validation Loss: 0.6914
+2023-05-17 18:00:16,475:INFO:root:Epoch: 39, Training Loss: 0.6605
+2023-05-17 18:00:19,879:INFO:root:Epoch: 39, Validation Loss: 0.6849
+2023-05-17 18:01:17,583:INFO:root:Epoch: 40, Training Loss: 0.6563
+2023-05-17 18:01:20,678:INFO:root:Epoch: 40, Validation Loss: 0.6861
+2023-05-17 18:02:17,661:INFO:root:Epoch: 41, Training Loss: 0.6510
+2023-05-17 18:02:20,853:INFO:root:Epoch: 41, Validation Loss: 0.7313
+2023-05-17 18:03:16,277:INFO:root:Epoch: 42, Training Loss: 0.6500
+2023-05-17 18:03:19,458:INFO:root:Epoch: 42, Validation Loss: 0.6762
+2023-05-17 18:04:14,160:INFO:root:Epoch: 43, Training Loss: 0.6474
+2023-05-17 18:04:17,237:INFO:root:Epoch: 43, Validation Loss: 0.6853
+2023-05-17 18:05:08,275:INFO:root:Epoch: 44, Training Loss: 0.6450
+2023-05-17 18:05:11,568:INFO:root:Epoch: 44, Validation Loss: 0.6897
+2023-05-17 18:06:06,490:INFO:root:Epoch: 45, Training Loss: 0.6472
+2023-05-17 18:06:10,416:INFO:root:Epoch: 45, Validation Loss: 0.6787
+2023-05-17 18:07:16,219:INFO:root:Epoch: 46, Training Loss: 0.6405
+2023-05-17 18:07:19,420:INFO:root:Epoch: 46, Validation Loss: 0.7127
+2023-05-17 18:08:23,644:INFO:root:Epoch: 47, Training Loss: 0.6419
+2023-05-17 18:08:27,842:INFO:root:Epoch: 47, Validation Loss: 0.6687
+2023-05-17 18:09:32,940:INFO:root:Epoch: 48, Training Loss: 0.6371
+2023-05-17 18:09:36,487:INFO:root:Epoch: 48, Validation Loss: 0.6817
+2023-05-17 18:10:40,735:INFO:root:Epoch: 49, Training Loss: 0.6340
+2023-05-17 18:10:44,066:INFO:root:Epoch: 49, Validation Loss: 0.6963
+2023-05-17 18:10:44,067:INFO:root:Training time: 2990.1083047389984
