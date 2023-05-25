@@ -1,0 +1,131 @@
+wget https://stacks.stanford.edu/file/druid:bn398fc4306/classics_train_val.tar
+tar -xvf classics_train_val.tar
+
+wget https://stacks.stanford.edu/file/druid:bn398fc4306/augmented_puzzles.tar #get from ivona folder
+tar -xvf augmented_puzzles.tar
+
+#create rmsd folder and inside the folder, do
+mkdir train_rmsd
+mkdir val_rmsd
+
+
+#14000 pdb files in the folder 14*1000, split into 14 text files containing 1000 lines of rmsd values.
+import os
+import sys
+path_train = '../classics_train_val/example_train'
+path_val = '../classics_train_val/example_val'
+entries = os.scandir(path_train) # change it to your directory that stores pdb files
+# for values store in one folder
+for entry in entries:
+    ext = os.path.splitext(entry)[-1].lower()
+    if ext==".pdb":
+        with open(entry) as file:
+            file_full_name = os.path.basename(entry)
+            file_name = os.path.splitext(file_full_name)[0]
+            pdbID = file_name[:4]
+            for line in file.readlines():
+                line = line.replace('\n', '')
+                if ('rms' in line) and ('stem' not in line) and ('new' not in line) and ('dih' not in line):
+                    new_file = open('./train_rmsd/'+pdbID+"_pdb_rms.txt", "a")
+                    rms = line[4:]
+                    new_file.write(file_name + ':' + str(rms) + '\n')
+                    new_file.close()
+
+# capitalize the pdbID of the pdb_rms.txt files with a bash file capitalize_name.sh
+
+#!/bin/bash
+
+for file in *
+do
+  if [[ -f $file ]]; then
+    newfilename=$(echo "$file" | sed -e 's/^\(....\)/\U\1/')
+    mv "$file" "$newfilename"
+  fi
+done
+
+# This prints the file count per directory for the current directory level:
+
+du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
+
+
+# Jupyter notebook connection from server:
+
+1. connect to server: ssh -L 8080:localhost:8080 liuxr@10.218.129.204
+2. activate environment where jupyter notebook is installed: conda activate
+3. run jupyter notebook: jupyter notebook --no-browser --port=8080
+
+
+# http://localhost:8080/notebooks/scratch/ares/rmsd/rmsd_extraction_and_analysis_compare.ipynb
+# Scripts to read the rms information text file and do data analysis
+
+ID_list = [1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, '14b', '14f', 15, 17, 18, 19, 20, 21]
+
+fs = 10  # fontsize
+
+data = [None] * len(ID_list)
+idx = 0
+
+for ID in ID_list:
+    file = open(r'./'+str(ID)+'_pdb_rms.txt') 
+    array = []
+    for line in file.readlines():
+        line = line.replace('\n', '')
+        if (':' in line):
+            array.append((float(line.split(":")[-1])))
+   
+    data[idx] = array
+    idx = idx+1
+
+# comparing ours and ares rmsd results in a violin plot
+
+sns.set(rc={'figure.figsize':(11.7,8.27)})
+sns.violinplot(data=df_both, x="pdbID", y="rmsd", hue="origin", split=True)
+
+
+
+# Compare ares native to ares generated/ ares native to ares decoys
+
+chain_and_atoms_info.py 
+
+python chain_and_atoms_info.py ../natives/pdb_14b.pdb ../near_natives/rna_puzzle_14b_near_native/S_000001_005.pdb >> compare_results_near_natives.txt
+
+
+
+
+
+# get the first file in every decoy puzzle folder in ares augmented puzzles folder and put them into one_decoy_per_puzzle
+# get the first file in every near native puzzle folder in ares augmented puzzles folder and put them into one_near_native_per_puzzle
+
+# move pdb3fasta.py and fixMSE.py to these two folders and do batch_pdb2fasta.sh on those two folders
+
+### below is the bash scripts for batch_pdb2fasta.sh
+#!/bin/bash
+
+# Assign a value to a variable
+declare -a list=("1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14f" "14b" "15" "17" "18" "19" "20" "21")
+# Loop through a sequence of numbers using the variable
+mkdir out_fasta
+for i in ${list[@]};
+do
+        python pdb2fasta.py pdb_${i}.pdb > ./out_fasta/out_fasta_${i}.fasta
+done
+
+# concatenate the results in the out_fasta folder to obtain a list of all the fasta files. 
+
+# after comparison, decoys, near natives and natives in ares have same sequence.
+
+
+
+# another version for the pdbID batch pdb2fasta
+
+#!/bin/bash
+
+# Assign a value to a variable
+declare -a list=("3MEI" "3P59" "3OWZ" "3V7E" "4P9R" "4GXY" "4R4V" "4L81" "5KPY" "4LCK" "5LYV" "4QLM" "4XW7" "5DDP" "5DDO" "5DI4" "5K7C" "5TPY" "5T5A" "5Y87" "5NWQ")
+# Loop through a sequence of numbers using the variable
+mkdir out_fasta
+for i in ${list[@]};
+do
+        python pdb2fasta.py ../natives_PDB/${i}.pdb > ./out_fasta/out_fasta_${i}.fasta
+done
+
