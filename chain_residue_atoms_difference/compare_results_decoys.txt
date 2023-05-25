@@ -1,0 +1,708 @@
+###################################################################
+Comparing native: pdb_1.pdb, generated: S_000001_000.pdb
+pdb_1.pdb
+Chain A: 489 atoms
+Chain B: 489 atoms
+Total chains: 2 
+
+S_000001_000.pdb
+Chain A: 488 atoms
+Chain B: 489 atoms
+Total chains: 2 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 23, Name: G
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 489
+chain2_total: 488
+
+Chain: B, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: B, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+Chain: B, Residue number: 23, Name: G
+Atom 'X' native: 0, generated: 4
+
+chain1_total: 489
+chain2_total: 489
+
+struc1_total: 978
+struc2_total: 977
+
+###################################################################
+Comparing native: pdb_2.pdb, generated: S_000001_000_1.pdb
+pdb_2.pdb
+Chain A: 323 atoms
+Chain B: 211 atoms
+Chain C: 323 atoms
+Chain D: 211 atoms
+Chain E: 323 atoms
+Chain F: 211 atoms
+Chain G: 323 atoms
+Chain H: 211 atoms
+Total chains: 8 
+
+S_000001_000_1.pdb
+Chain A: 319 atoms
+Chain B: 207 atoms
+Chain C: 319 atoms
+Chain D: 207 atoms
+Chain E: 319 atoms
+Chain F: 207 atoms
+Chain G: 319 atoms
+Chain H: 207 atoms
+Total chains: 8 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 323
+chain2_total: 319
+
+Chain: B, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: B, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 211
+chain2_total: 207
+
+Chain: C, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: C, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 323
+chain2_total: 319
+
+Chain: D, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: D, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 211
+chain2_total: 207
+
+Chain: E, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: E, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 323
+chain2_total: 319
+
+Chain: F, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: F, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 211
+chain2_total: 207
+
+Chain: G, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: G, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 323
+chain2_total: 319
+
+Chain: H, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: H, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 211
+chain2_total: 207
+
+struc1_total: 2136
+struc2_total: 2104
+
+###################################################################
+Comparing native: pdb_3.pdb, generated: S_000001_000.pdb
+pdb_3.pdb
+Chain A: 1803 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1806 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 84, Name: G
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 1803
+chain2_total: 1806
+
+struc1_total: 1803
+struc2_total: 1806
+
+###################################################################
+Comparing native: pdb_4.pdb, generated: S_000001_000.pdb
+pdb_4.pdb
+Chain A: 2704 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 2700 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 2704
+chain2_total: 2700
+
+struc1_total: 2704
+struc2_total: 2700
+
+###################################################################
+Comparing native: pdb_5.pdb, generated: S_000001_000.pdb
+pdb_5.pdb
+Chain A: 4010 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 4013 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: A, Residue number: 188, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 4010
+chain2_total: 4013
+
+struc1_total: 4010
+struc2_total: 4013
+
+###################################################################
+Comparing native: pdb_6.pdb, generated: S_000001_000.pdb
+pdb_6.pdb
+Chain A: 3409 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 3403 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 24, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 24, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 110, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 115, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 115, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 115, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: A, Residue number: 168, Name: G
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 3409
+chain2_total: 3403
+
+struc1_total: 3409
+struc2_total: 3403
+
+###################################################################
+Comparing native: pdb_7.pdb, generated: S_000001_000.pdb
+pdb_7.pdb
+Chain A: 3956 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 3955 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: A, Residue number: 185, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 3956
+chain2_total: 3955
+
+struc1_total: 3956
+struc2_total: 3955
+
+###################################################################
+Comparing native: pdb_8.pdb, generated: S_000001_000.pdb
+pdb_8.pdb
+Chain A: 2074 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 2070 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 2074
+chain2_total: 2070
+
+struc1_total: 2074
+struc2_total: 2070
+
+###################################################################
+Comparing native: pdb_9.pdb, generated: S_000001_000.pdb
+pdb_9.pdb
+Chain A: 1513 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1512 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 13, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 13, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 13, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: A, Residue number: 83, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 1513
+chain2_total: 1512
+
+struc1_total: 1513
+struc2_total: 1512
+
+###################################################################
+Comparing native: pdb_10.pdb, generated: S_000001_000.pdb
+pdb_10.pdb
+Chain A: 2068 atoms
+Chain B: 1304 atoms
+Total chains: 2 
+
+S_000001_000.pdb
+Chain A: 2067 atoms
+Chain B: 1303 atoms
+Total chains: 2 
+
+Chain: A, Residue number: 1, Name: U
+Atom 'O' native: 8, generated: 5
+
+Chain: A, Residue number: 1, Name: U
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: U
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 96, Name: A
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 2068
+chain2_total: 2067
+
+Chain: B, Residue number: 6, Name: A
+Atom 'O' native: 6, generated: 3
+
+Chain: B, Residue number: 6, Name: A
+Atom 'P' native: 1, generated: 0
+
+Chain: B, Residue number: 6, Name: A
+Atom 'X' native: 0, generated: 2
+
+Chain: B, Residue number: 66, Name: U
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 1304
+chain2_total: 1303
+
+struc1_total: 3372
+struc2_total: 3370
+
+###################################################################
+Comparing native: pdb_11.pdb, generated: S_000001_000.pdb
+pdb_11.pdb
+Chain A: 1209 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1205 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 1209
+chain2_total: 1205
+
+struc1_total: 1209
+struc2_total: 1205
+
+###################################################################
+Comparing native: pdb_12.pdb, generated: S_000001_000.pdb
+pdb_12.pdb
+Chain A: 2514 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 2503 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 2, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 2, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 18, Name: A
+Atom 'O' native: 6, generated: 3
+
+Chain: A, Residue number: 18, Name: A
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 21, Name: G
+Atom 'O' native: 6, generated: 7
+
+Chain: A, Residue number: 39, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 39, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 2514
+chain2_total: 2503
+
+struc1_total: 2514
+struc2_total: 2503
+
+###################################################################
+Comparing native: pdb_13.pdb, generated: S_000001_000.pdb
+pdb_13.pdb
+Chain A: 1295 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1287 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 57, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 57, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 1295
+chain2_total: 1287
+
+struc1_total: 1295
+struc2_total: 1287
+
+###################################################################
+Comparing native: pdb_14f.pdb, generated: S_000001_000.pdb
+pdb_14f.pdb
+Chain A: 1232 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1234 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 21, Name: U
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 1232
+chain2_total: 1234
+
+struc1_total: 1232
+struc2_total: 1234
+
+###################################################################
+Comparing native: pdb_14b.pdb, generated: S_000001_000.pdb
+pdb_14b.pdb
+Chain A: 1306 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1307 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 1306
+chain2_total: 1307
+
+struc1_total: 1306
+struc2_total: 1307
+
+###################################################################
+Comparing native: pdb_15.pdb, generated: S_000001_000.pdb
+pdb_15.pdb
+Chain A: 1029 atoms
+Chain B: 429 atoms
+Total chains: 2 
+
+S_000001_000.pdb
+Chain A: 1025 atoms
+Chain B: 428 atoms
+Total chains: 2 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 1029
+chain2_total: 1025
+
+Chain: B, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: B, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: B, Residue number: 1, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: B, Residue number: 7, Name: C
+Atom 'O' native: 6, generated: 7
+
+chain1_total: 429
+chain2_total: 428
+
+struc1_total: 1458
+struc2_total: 1453
+
+###################################################################
+Comparing native: pdb_17.pdb, generated: S_000001_000.pdb
+pdb_17.pdb
+Chain A: 1238 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1233 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: C
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 52, Name: A
+Atom 'O' native: 6, generated: 3
+
+Chain: A, Residue number: 52, Name: A
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 62, Name: A
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 1238
+chain2_total: 1233
+
+struc1_total: 1238
+struc2_total: 1233
+
+###################################################################
+Comparing native: pdb_18.pdb, generated: S_000001_000.pdb
+pdb_18.pdb
+Chain A: 1527 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 1525 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 71, Name: G
+Atom 'X' native: 0, generated: 2
+
+chain1_total: 1527
+chain2_total: 1525
+
+struc1_total: 1527
+struc2_total: 1525
+
+###################################################################
+Comparing native: pdb_19.pdb, generated: S_000001_000.pdb
+pdb_19.pdb
+Chain A: 856 atoms
+Chain B: 469 atoms
+Total chains: 2 
+
+S_000001_000.pdb
+Chain A: 855 atoms
+Chain B: 468 atoms
+Total chains: 2 
+
+Chain: A, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: A, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: A, Residue number: 1, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: A, Residue number: 40, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 856
+chain2_total: 855
+
+Chain: B, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: B, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: B, Residue number: 1, Name: G
+Atom 'X' native: 0, generated: 2
+
+Chain: B, Residue number: 22, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 469
+chain2_total: 468
+
+struc1_total: 1325
+struc2_total: 1323
+
+###################################################################
+Comparing native: pdb_20.pdb, generated: S_000001.pdb
+pdb_20.pdb
+Chain A: 386 atoms
+Chain B: 1066 atoms
+Total chains: 2 
+
+S_000001.pdb
+Chain A: 382 atoms
+Chain B: 1063 atoms
+Total chains: 2 
+
+Chain: A, Residue number: 1, Name: A
+Atom 'O' native: 6, generated: 3
+
+Chain: A, Residue number: 1, Name: A
+Atom 'P' native: 1, generated: 0
+
+chain1_total: 386
+chain2_total: 382
+
+Chain: B, Residue number: 1, Name: G
+Atom 'O' native: 7, generated: 4
+
+Chain: B, Residue number: 1, Name: G
+Atom 'P' native: 1, generated: 0
+
+Chain: B, Residue number: 44, Name: C
+Atom 'O' native: 6, generated: 7
+
+chain1_total: 1066
+chain2_total: 1063
+
+struc1_total: 1452
+struc2_total: 1445
+
+###################################################################
+Comparing native: pdb_21.pdb, generated: S_000001_000.pdb
+pdb_21.pdb
+Chain A: 881 atoms
+Total chains: 1 
+
+S_000001_000.pdb
+Chain A: 882 atoms
+Total chains: 1 
+
+Chain: A, Residue number: 1, Name: C
+Atom 'O' native: 5, generated: 4
+
+Chain: A, Residue number: 1, Name: C
+Atom 'X' native: 0, generated: 1
+
+Chain: A, Residue number: 41, Name: C
+Atom 'X' native: 0, generated: 1
+
+chain1_total: 881
+chain2_total: 882
+
+struc1_total: 881
+struc2_total: 882
+
