@@ -1,0 +1,8 @@
+-fasta ../extraction/unique_chains/1MHK_new/1MHK_c.fasta
+-native ../extraction/unique_chains/1MHK_new/1MHK.pdb
+-secstruct_file ../extraction/unique_chains/1MHK_new/1MHK.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1MHK.out
+-cycles 1000
+-minimize_rna
+

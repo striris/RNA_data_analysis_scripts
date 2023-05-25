@@ -1,0 +1,7 @@
+-fasta ../extraction/single_chain/255D_1.fasta
+-native ../pdb_files/255D.pdb
+-secstruct_file ../extraction/single_chain/255D_1.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/255D.out
+-cycles 1000
+-minimize_rna

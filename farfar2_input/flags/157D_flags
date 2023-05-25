@@ -1,0 +1,7 @@
+-fasta ../extraction/dup_chains/split/157D_c.fasta
+-native ../pdb_files/157D.pdb
+-secstruct_file ../extraction/dup_chains/split/157D.secstruct
+-nstruct 2
+-out:file:silent ../../output_files/157D_new.out
+-cycles 1000
+-minimize_rna

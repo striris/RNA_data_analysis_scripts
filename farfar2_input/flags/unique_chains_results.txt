@@ -1,0 +1,22 @@
+time results
+
+1A4D
+
+real	968m33.896s
+user	966m55.513s
+sys	0m37.901s
+1CSL
+
+real	440m6.606s
+user	439m19.360s
+sys	0m19.743s
+1DQF
+
+real	288m49.861s
+user	288m13.325s
+sys	0m8.393s
+1MHK
+
+real    392m5.314s
+user    391m28.464s
+sys     0m16.962s

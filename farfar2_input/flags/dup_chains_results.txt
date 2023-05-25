@@ -1,0 +1,17 @@
+time results:
+
+157D
+
+real	290m46.676s
+user	290m22.944s
+sys	0m2.249s
+1I9X
+
+real	466m15.731s
+user	465m26.948s
+sys	0m13.107s
+1KD5
+
+real	303m0.264s
+user	302m27.384s
+sys	0m11.547s

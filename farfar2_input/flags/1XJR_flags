@@ -1,0 +1,7 @@
+-fasta ../extraction/single_chain/1XJR_1.fasta
+-native ../pdb_files/1XJR.pdb
+-secstruct_file ../extraction/single_chain/1XJR_1.secstruct
+-nstruct 1000
+-out:file:silent ../../output_files/1XJR.out
+-cycles 1000
+-minimize_rna
